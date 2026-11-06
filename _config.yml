@@ -1,4 +1,3 @@
-
 # The Site Configuration
 
 theme: jekyll-theme-chirpy
@@ -9,11 +8,9 @@ timezone: America/New_York
 
 # SEO Settings
 title: Farid Waddi
-tagline: Software Quality Assurance | Software Testing
+tagline: Software QA Engineer
 description: >-
-  Welcome to my blog. I share practical knowledge about Software Quality
-  Assurance, manual testing, test cases, bug reporting, API testing,
-  mobile testing, and software testing techniques.
+  I find bugs before your users do. I'm a Junior Software QA Tester focused on Manual Testing, Software Quality Assurance, and Web & Mobile Application Testing. Skilled in test case design, test execution, functional testing, regression testing, bug reporting, Jira, Zephyr, and API testing. Building hands-on QA projects and seeking an entry-level or remote QA Tester opportunity.
 
 url: "https://FaridWaddi.github.io"
 baseurl: ""
@@ -29,7 +26,7 @@ twitter:
 # Social Information
 social:
   name: Farid Waddi
-  email:
+  email: faridwaddi01@gmail.com
   fediverse_handle:
   links:
     - https://github.com/FaridWaddi
@@ -71,7 +68,7 @@ theme_mode:
 cdn:
 
 # Avatar
-avatar:
+avatar: https://media.licdn.com/dms/image/v2/D5603AQFKnbhJxOLXTg/profile-displayphoto-scale_400_400/B56aF.PNh_H0A0-/0/1793119282566?e=1795651200&v=beta&t=tNisn22UFTunA22XtKcc6tArskabiYhU20kaBUrAn0Q
 
 # Social Preview Image
 social_preview_image:
@@ -97,7 +94,7 @@ comments:
   giscus:
     repo:
     repo_id:
-    category:
+    category: 
     category_id:
     mapping:
     strict:
