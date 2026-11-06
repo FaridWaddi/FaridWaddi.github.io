@@ -3,26 +3,30 @@
 
 theme: jekyll-theme-chirpy
 
+# Language and timezone
 lang: en
 timezone: America/New_York
 
 # SEO Settings
-
 title: Farid Waddi
-tagline: Software Testing | Quality Assurance | Tech Blog
-
+tagline: Software Quality Assurance | Software Testing
 description: >-
-  A personal blog about Software Quality Assurance, manual testing,
-  test automation, software testing techniques, and technology.
+  Welcome to my blog. I share practical knowledge about Software Quality
+  Assurance, manual testing, test cases, bug reporting, API testing,
+  mobile testing, and software testing techniques.
 
-url: "Farid_Waddi.guthub.io"
+url: "https://faridwaddi.github.io"
+baseurl: ""
 
+# GitHub
 github:
   username: FaridWaddi
 
+# Twitter
 twitter:
   username:
 
+# Social Information
 social:
   name: Farid Waddi
   email:
@@ -30,8 +34,7 @@ social:
   links:
     - https://github.com/FaridWaddi
 
-# Site Verification Settings
-
+# Site Verification
 webmaster_verifications:
   google:
   bing:
@@ -40,8 +43,7 @@ webmaster_verifications:
   baidu:
   facebook:
 
-# Web Analytics Settings
-
+# Analytics
 analytics:
   google:
     id:
@@ -58,33 +60,26 @@ analytics:
   fathom:
     id:
 
-# Page views settings
-
+# Page Views
 pageviews:
   provider:
 
 # Theme Mode
-
 theme_mode:
 
 # CDN
-
 cdn:
 
 # Avatar
-
 avatar:
 
 # Social Preview Image
-
 social_preview_image:
 
 # Table of Contents
-
 toc: true
 
-# Actions
-
+# Edit Post Action
 actions:
   edit_post:
     enabled: false
@@ -92,7 +87,6 @@ actions:
     static_url: false
 
 # Comments
-
 comments:
   provider:
   disqus:
@@ -112,14 +106,12 @@ comments:
     reactions_enabled:
 
 # Assets
-
 assets:
   self_host:
     enabled:
     env:
 
 # Progressive Web App
-
 pwa:
   enabled: true
   cache:
@@ -127,16 +119,9 @@ pwa:
     deny_paths:
 
 # Pagination
-
 paginate: 10
 
-# Base URL
-# Keep empty for username.github.io repositories.
-
-baseurl: ""
-
 # Kramdown
-
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
@@ -149,14 +134,12 @@ kramdown:
       start_line: 1
 
 # Collections
-
 collections:
   tabs:
     output: true
     sort_by: order
 
 # Defaults
-
 defaults:
   - scope:
       path: ""
@@ -180,12 +163,10 @@ defaults:
       permalink: /:title/
 
 # Sass
-
 sass:
   style: compressed
 
 # HTML Compression
-
 compress_html:
   clippings: all
   comments: all
@@ -193,10 +174,10 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs:
+      - development
 
 # Exclude
-
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -209,9 +190,10 @@ exclude:
   - "package*.json"
 
 # Jekyll Archives
-
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled:
+    - categories
+    - tags
   layouts:
     category: category
     tag: tag
