@@ -1,7 +1,6 @@
 
 ---
 title: "The Importance of Negative Testing"
-date: 2026-11-09 10:00:00 -0500
 categories:
   - software-testing
 tags:
