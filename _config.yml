@@ -112,7 +112,7 @@ assets:
 pwa:
   enabled: false
   cache:
-    enabled: false
+    enabled: true
     deny_paths:
 
 # Pagination
