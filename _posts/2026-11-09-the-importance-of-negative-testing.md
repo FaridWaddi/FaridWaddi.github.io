@@ -2,8 +2,12 @@
 ---
 title: "The Importance of Negative Testing"
 date: 2026-11-09 10:00:00 -0500
-categories: [software-testing]
-tags: [negative-testing, manual-testing, quality-assurance]
+categories:
+  - software-testing
+tags:
+  - negative-testing
+  - manual-testing
+  - quality-assurance
 ---
 
 When testing an application, checking whether everything works correctly is not enough. We also need to check how the application behaves when users make mistakes or enter unexpected information.
