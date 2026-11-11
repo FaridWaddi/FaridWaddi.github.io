@@ -12,7 +12,7 @@ When testing an e-commerce website, I like to think about the complete customer 
 
 A customer should be able to select a product, add it to the cart, change the quantity, and continue to checkout.
 
-
+![E-Commerce Shopping Journey](/assets/img/posts/ecommerce-shopping-journey.png)
 
 But there are several things to verify along the way:
 
